@@ -10,3 +10,6 @@ Para poder deixar funcionando, altere o arquivo que define a autenticação com 
         return "Basic " + Base64.encodeToString(String.format("%s:%s", "MEU USUARIO", "MINHA SENHA").getBytes(),
                 Base64.NO_WRAP);
     }
+
+Exemplo de execução(v1):
+![Tela sendo executada](exemplo1.png)
