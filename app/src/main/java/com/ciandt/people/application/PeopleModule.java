@@ -33,7 +33,7 @@ public class PeopleModule {
     @Singleton
     @Provides
     public String getBasicAuth() {
-        return "Basic " + Base64.encodeToString(String.format("%s:%s", "snoleto", "").getBytes(),
+        return "Basic " + Base64.encodeToString(String.format("%s:%s", "", "").getBytes(),
                 Base64.NO_WRAP);
     }
 
